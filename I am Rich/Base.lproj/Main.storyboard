@@ -16,23 +16,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="VWK-Na-kgS">
-                                <rect key="frame" x="95" y="285" width="240" height="251"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="I am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjM-mi-hvF">
-                                <rect key="frame" x="16" y="225" width="398" height="52"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am Rich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjM-mi-hvF">
+                                <rect key="frame" x="16" y="284" width="398" height="48"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" red="1" green="0.37647058823529411" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="VWK-Na-kgS">
+                                <rect key="frame" x="95" y="332" width="240" height="251"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.27058823529411763" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VWK-Na-kgS" secondAttribute="trailing" constant="95" id="6Nv-4v-0eP"/>
+                            <constraint firstItem="VWK-Na-kgS" firstAttribute="top" secondItem="wjM-mi-hvF" secondAttribute="bottom" id="7GV-RG-WSP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wjM-mi-hvF" secondAttribute="trailing" constant="16" id="gv9-5d-tur"/>
                             <constraint firstItem="wjM-mi-hvF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="pDc-iB-KCV"/>
                             <constraint firstItem="VWK-Na-kgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="sDp-Qv-R6m"/>
+                            <constraint firstItem="wjM-mi-hvF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="225" id="y4t-Ky-bzh"/>
                         </constraints>
                     </view>
                 </viewController>
